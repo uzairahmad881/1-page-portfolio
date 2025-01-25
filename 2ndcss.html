@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Portfolio</title>
+    <style>* {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #007BFF;
+        color: white;
+        padding: 15px 0;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    nav ul li a:hover {
+        color: #FFD700; /* Gold color on hover */
+    }
+    
+    section {
+        padding: 60px 20px;
+        text-align: center;
+        margin: 20px 0;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    section h1 {
+        color: #007BFF;
+    }
+    
+    section p, section ul {
+        color: #555;
+        line-height: 1.6;
+    }
+    
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    
+    ul li {
+        margin: 10px 0;
+    }
+    
+    a {
+        color: #007BFF;
+    }
+    
+    a:hover {
+        color: #FFD700; /* Gold color on hover */
+    }
+        .project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px; /* Card width */
+    transition: transform 0.3s;
+}
+
+.project-card h2 {
+    color: #007BFF;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
+
+    }
+    </style>
+</head>
+<body>
+    <header>
+        <marquee behavior="" direction="" style="background-color: #FFD700; color: black;" >This Website are Only For Test Purpose & This Website is 1 Page Website 
+            if you want to Change something in this site you can do it 
+        </marquee>
+        <nav>
+            <ul>
+                <li><a href="#about">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>Hi! I'm [Your Name], a passionate web developer with a knack for creating dynamic and responsive websites. I love coding and constantly seek to improve my skills and learn new technologies.</p>
+    </section>
+
+    
+        <section id="projects">
+            <h1>Projects</h1>
+            <p>Here are a few projects I've worked on:</p>
+            <div class="project-container">
+                <div class="project-card">
+                    <h2>Project 1</h2>
+                    <p>A responsive website for a local business, featuring a modern design and user-friendly interface.</p>
+                </div>
+                <div class="project-card">
+                    <h2>Project 2</h2>
+                    <img src="gur.jpeg"  width="30%"alt="">
+                    <p>An e-commerce platform that allows users to buy and sell products online, with secure payment processing.</p>
+                </div>
+                <div class="project-card">
+                    <h2>Project 3</h2>
+                    <p>A personal blog where I share my thoughts on web development, technology, and other interests.</p>
+                </div>
+    </section>
+
+    <section id="skills">
+        <h1>Skills</h1>
+        <p>I have experience in the following technologies:</p>
+        <ul>
+            <li>HTML, CSS, and JavaScript</li>
+            <li>React and Angular</li>
+            <li>Node.js and Express</li>
+            <li>Python and Django</li>
+            <li>Responsive Design and UX/UI Principles</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>If you'd like to get in touch, feel free to reach out:</p>
+        <ul>
+            <li>Email: uzairahmad8875@gmail.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a></li>
+            <li>GitHub: <a href="https://github.com/yourusername" target="_blank">github.com/yourusername</a></li>
+            <li>Whatsapp: <a number="+923135622271" href=""></a> </li>
+        </ul>
+    </section>
+</body>
+</html>
