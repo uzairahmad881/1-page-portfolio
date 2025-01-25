@@ -1,1 +1,102 @@
+* {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f4f4f4;
+    }
+    
+    header {
+        background-color: #007BFF;
+        color: white;
+        padding: 15px 0;
+    }
+    
+    nav {
+        display: flex;
+        justify-content: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    nav ul li {
+        display: inline;
+        margin: 0 20px;
+    }
+    
+    nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s;
+    }
+    
+    nav ul li a:hover {
+        color: #FFD700; /* Gold color on hover */
+    }
+    
+    section {
+        padding: 60px 20px;
+        text-align: center;
+        margin: 20px 0;
+        background-color: white;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    section h1 {
+        color: #007BFF;
+    }
+    
+    section p, section ul {
+        color: #555;
+        line-height: 1.6;
+    }
+    
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    
+    ul li {
+        margin: 10px 0;
+    }
+    
+    a {
+        color: #007BFF;
+    }
+    
+    a:hover {
+        color: #FFD700; /* Gold color on hover */
+    }
+        .project-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.project-card {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 20px;
+    width: 300px; /* Card width */
+    transition: transform 0.3s;
+}
+
+.project-card h2 {
+    color: #007BFF;
+}
+
+.project-card:hover {
+    transform: translateY(-5px); /* Lift effect on hover */
+}
 
